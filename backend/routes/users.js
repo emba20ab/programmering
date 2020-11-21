@@ -5,7 +5,7 @@ const router = express.Router()
     // variables
 
 
-const dataPath = '../data/users.json';
+const dataPath = '../model/users.json';
 //Create
 router.post('/', (req, res) => {
 
